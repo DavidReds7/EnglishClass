@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superlative Challenge</title>
+    <link rel="stylesheet" href="../EnglishClass/css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Superlative Challenge</h1>
+        <div id="card-container">
+            <p id="adjective-card">Click "Next" to start</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Enter the superlative form">
+        <button id="submit-button" onclick="checkAnswer()">Submit</button>
+        <button id="next-button" onclick="nextCard()">Next</button>
+        <p id="feedback"></p>
+        <p id="score">Score: 0</p>
+        <button id="play-again-button" onclick="resetGame()" style="display: none;">Play Again</button>
+    </div>
+    <script src="../EnglishClass/js/script.js"></script>
+</body>
+</html>
